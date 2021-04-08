@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#DBF5F3"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"><![CDATA[
+    xmlns:android="http://schemas.android.com/apk/res/android" /
+       ]]>
+
+    <ImageView
+        android:id="@+id/btnworld"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="32dp"
+        android:padding="4dp"
+        android:src="@drawable/worldiesimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/btnpak"
+        android:layout_width="308dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="60dp"
+        android:padding="4dp"
+        android:src="@drawable/pakflag"
+        android:textColor="#EA332B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/countrydata"
+        android:layout_width="179dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="232dp"
+        android:padding="4dp"
+
+        android:src="@drawable/countrisimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631">
+
+    </ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>

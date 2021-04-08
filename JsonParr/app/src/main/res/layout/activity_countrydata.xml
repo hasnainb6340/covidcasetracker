@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DBF5F3"
+    android:layout_height="match_parent"
+    tools:context=".Countrydata">
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+       android:background="#FFFFFF"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_height="wrap_content"
+        android:textColor="#ED5231"
+        android:id="@+id/btnrefreshing"
+        android:text="Refresh Data"></Button>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/btnrefreshing"
+            android:padding="10sp"
+            android:id="@+id/txtoutput"
+            android:textSize="24sp"
+            />
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

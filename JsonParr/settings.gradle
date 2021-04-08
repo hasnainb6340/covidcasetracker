@@ -1,0 +1,2 @@
+rootProject.name='JsonParr'
+include ':app'

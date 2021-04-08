@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hsv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:fillViewport="true"
+    android:measureAllChildren="false"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DBF5F3"
+    tools:context=".Infomtions">
+
+    <Button
+        android:id="@+id/quarnting"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:text="How to quarntine"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <Button
+        android:id="@+id/infoing"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="496dp"
+        android:text="Basic info"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <Button
+        android:id="@+id/coughing"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="496dp"
+        android:text="cough"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        android:id="@+id/symps"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:text="Symptoms"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/prevs"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:text="Preventions"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <Button
+        android:id="@+id/stoping"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="496dp"
+        android:text="Stop the spread"
+        android:textColor="#ED5231"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</HorizontalScrollView>
